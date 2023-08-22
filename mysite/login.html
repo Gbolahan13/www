@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register|Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://localhost:4000/mysite/adminuser.php" method="post">
+     <div class="container">
+        <h3 align="center">Register Now</h3>
+        <input type="file" name="inputfile" id="inputfile" accept="image/jpeg, image/jpg, image/png">
+        <label for="inputfile"><img src="Profile.png" id="label"></label>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" id="emailfield" placeholder="Email Address" required>
+        <input type="password" name="password" onkeyup="check()" placeholder="Password" required>
+        <select>
+            <option value="user">user</option>
+            <option value="admin">admin</option>
+        </select>
+        <input type="submit" id="regbtn" onclick="verify()">
+    </div>
+    </form>
+
+    <script>
+        let profilePic = document.getElementById("label");
+        let inputfile = document.getElementById("inputfile");
+
+        inputfile.onchange = function(){
+            profilePic.src = URL.createObjectURL(inputfile.files[0])
+        }
+        function check(){
+            let psw = document.querySelector
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.darkmode{
+    background: black;
+    color: white;
+}
+#inputfile{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+li{
+    text-transform: capitalize;
+}
+button{
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    background: #db143c;
+    border-radius: 10px;
+    color: #fff;
+}
+#loginbody{
+   background: #524f4f; 
+}
+#regbtn{
+    background: #962f43;
+    color: white;
+}
+.buttons{
+    margin-left: 500px;
+}
+.black{
+    background-color: #343232;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.name{
+    color: white;
+    background: crimson;
+    border-radius: 5px;
+    padding: 5px;
+}
+#label{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 180px;
+}
+#regbtn:hover{
+    background: crimson;
+    transition: 1s;
+}
+#login{
+    display: none;
+}
+.container{
+    width: 500px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 350px;
+    box-shadow: 0 7px 34px 10px rgba(0,0,0,0.5); 
+}
+.subtext{
+    color: lightcoral;
+}
+#main1{
+    display: flex;
+    gap: 30px;
+}
+span{
+    color: crimson;
+}
+#main1 div h1{
+    font-size: 70.0184px;
+    width: 500px;
+    color: lightcoral;
+}
+input,select{
+    background: #eee;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-block: 10px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    text-transform: capitalize;
+}
+.p{
+    display: flex;
+    gap: 150px;
+}
